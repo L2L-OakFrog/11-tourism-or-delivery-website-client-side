@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Feeling Unusual? Visit MediCare, We are here for you..
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This site is made to ensure your good health `MediCare Because We care`
 
-## Available Scripts
+## `Services:`
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<ul>
+<li>You can choose from various available services in our website;</li>
+<li>Check every details of your chosen services & make an appointment;</li>
+<li>Preview our team of Doctors and Check their every details.;</li>
+<li>Browse our gallery to check our healthy environment;</li>
+<li>Create an account in our website to get future services and discounts if available.</li>
+</ul>
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Click Here: [Live Site (Firebase)](https://assignment-10-d8235.web.app/)
+<br />
+Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Assignment-9
 
-### Code Splitting
+## To-Do:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Decide the `theme & name of website` based on healthcare related services; ✔
 
-### Analyzing the Bundle Size
+2. Create `fake Data` based on the theme; ✔
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Use `Max. 1 CSS Framework` (React-Bootstarp, Material UI, Tailwind etc.); ✔
 
-### Making a Progressive Web App
+4. Create navigation with `Min. 7 Route` in header (Home, Services, Doctors, Contact, Login); ✔
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5. Make `Header & Footer` stays in every route; ✔
 
-### Advanced Configuration
+6. Show a broken link `404 Error` page; ✔
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+7. Create something unique in the `top banner` in Home page; ✔
 
-### Deployment
+8. Show featured `6 Services` in Home page with `name,image,short description,detail button`; ✔
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+9. Create something `Extra` in Home page; ✔
 
-### `npm run build` fails to minify
+10. Implement `Login-Logout` in header and page; ✔
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+11. Implement `Private Route` with login access; ✔
+
+12. Implement `Dynamic Route` with button click; ✔
+
+13. Create `buttons` with active functionality; ✔
+
+14. Show `User Name` after login. ✔
+
+## Bonus:
+
+1. `Responsive`; ✔
+2. `Context API`; ✔
+3. `Dynamic Route`; ✔
+4. `Local Storage` (optional);
+5. `Variation in Design`; ✔
+6. `Organized Codes`; ✔
+7. `ReadMe File`; ✔
+
+## My React Setups:
+
+1. Install React Router, ✔
+2. Install Firebase, ✔
+3. Install React Bootstrap, ✔
+4. Install Font Awesome, ✔
+5. Install Hash Link, ✔
+5. Install React Hook Form, ✔
+
+## Imp:
+
+1. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (Firebase Deploy),
+2. {"hosting": {"public": "build","rewrites": [{"source": "** ","destination": "/index.html"}],"ignore": [ "firebase.json","** /.*","** /node_modules/**"]}} (404 reload issue **turn on auto-format),
+
+### Live Site (Firebase): https://assignment-10-d8235.web.app/
+### Live Site (Netlify): https://friendly-leakey-37ef00.netlify.app/
+### GitHub: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-L2L-OakFrog
