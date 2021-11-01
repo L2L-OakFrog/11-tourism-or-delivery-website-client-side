@@ -22,6 +22,7 @@ import RestaurantDetails from './Pages/Restaurants/RestaurantDetails/RestaurantD
 import TitleChange from './Pages/TitleChange/TitleChange';
 import Gallery from './Pages/Gallery/Gallery';
 import About from './Pages/About/About';
+import SeeOrders from './Pages/Private/SeeOrders/SeeOrders';
 
 function App() {
   return (
@@ -73,6 +74,10 @@ function App() {
                 </Route>
 
                 {/* Private Routes */}
+
+                <PrivateRoute path='/seeorders'>
+                  <SeeOrders></SeeOrders>
+                </PrivateRoute>
 
                 <PrivateRoute path='/allorders'>
                   <ManageOrders></ManageOrders>

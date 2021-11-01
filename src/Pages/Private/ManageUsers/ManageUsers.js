@@ -1,9 +1,18 @@
 import React from 'react';
+import useUsers from '../../../Hooks/UseUsers';
 
 const ManageUsers = () => {
+    const [users] = useUsers();
     return (
         <div>
-            <h1>Henlo</h1>
+            <h1>Manage All Users</h1>
+            <hr />
+            <ul>
+                {
+                    users.map(user =>
+                        <li key={user._id}><h4>Name: {user.fullName}, Email: {user.email}</h4></li>)
+                }
+            </ul>
         </div>
     );
 };

@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { useHistory, useLocation } from 'react-router';
@@ -12,9 +13,18 @@ const Login = () => {
     const handleGoogle = () => {
         signInUsingGoogle()
             .then(result => {
+                const data = result._tokenResponse;
+                axios.post('https://pure-eyrie-69335.herokuapp.com/users', data)
+                    .then(res => { })
                 history.push(redirect_url);
             })
     }
+    // const onSubmitUsers = data => {
+    //     
+    //         .then(res => {
+    //             console.log(res);
+    //         })
+    // }
     return (
         <Container>
             <Row className='showinglogin'>

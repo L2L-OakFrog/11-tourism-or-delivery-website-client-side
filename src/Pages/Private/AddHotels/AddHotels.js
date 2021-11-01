@@ -7,10 +7,8 @@ const AddHotels = () => {
     const { register, formState: { errors }, reset, handleSubmit } = useForm();
 
     const onSubmitHotels = data => {
-        console.log(data);
         axios.post('https://pure-eyrie-69335.herokuapp.com/hotels', data)
             .then(res => {
-                console.log(res);
                 if (res.data.insertedId) {
                     alert('Added Successfully!');
                     reset();

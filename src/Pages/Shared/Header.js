@@ -46,7 +46,7 @@ const Header = () => {
                     <Nav className="justify-content-end">
                         {user?.email ?
                             <NavDropdown title={user?.displayName || `Welcome! ${user?.displayName}`} id="collasible-nav-dropdown">
-                                <NavDropdown.Item as={Link} to="/myorders">My Orders</NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/seeorders">My Orders</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/allorders">Manage All Orders</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/addtours">Add Tours</NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/addhotels">Add Hotels</NavDropdown.Item>
