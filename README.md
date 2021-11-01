@@ -68,6 +68,7 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 4. Install Font Awesome, ✔
 5. Install Hash Link, ✔
 5. Install React Hook Form, ✔
+5. Install Axios JS, ✔
 
 ## Imp:
 
@@ -76,4 +77,5 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 ### Live Site (Firebase): https://assignment-10-d8235.web.app/
 ### Live Site (Netlify): https://friendly-leakey-37ef00.netlify.app/
-### GitHub: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-L2L-OakFrog
+### GitHub (Client): https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-L2L-OakFrog
+### GitHub (Server): https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-L2L-OakFrog
