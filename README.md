@@ -1,14 +1,14 @@
-# Feeling Unusual? Visit MediCare, We are here for you..
+# OakTour its okay to take a tour
 
-This site is made to ensure your good health `MediCare Because We care`
+This site is made to ensure your tour related needs at `OakTour`
 
 ## `Services:`
 
 <ul>
 <li>You can choose from various available services in our website;</li>
 <li>Check every details of your chosen services & make an appointment;</li>
-<li>Preview our team of Doctors and Check their every details.;</li>
-<li>Browse our gallery to check our healthy environment;</li>
+<li>Preview our tours and Check their every details.;</li>
+<li>Browse our gallery to check our previous customer reviews;</li>
 <li>Create an account in our website to get future services and discounts if available.</li>
 </ul>
 
@@ -18,27 +18,27 @@ Click Here: [Live Site (Firebase)](https://oak-tours.web.app/)
 <br />
 Click Here: [Live Site (Netlify)](https://compassionate-shirley-184a94.netlify.app/)
 
-# Assignment-9
+# Assignment-11
 
 ## To-Do:
 
 1. Decide the `theme & name of website` based on healthcare related services; ✔
 
-2. Create `fake Data` based on the theme; ✔
+2. Create `Backend` working server; ✔
 
 3. Use `Max. 1 CSS Framework` (React-Bootstarp, Material UI, Tailwind etc.); ✔
 
-4. Create navigation with `Min. 7 Route` in header (Home, Services, Doctors, Contact, Login); ✔
+4. Make `Header & Footer` stays in every route; ✔
 
-5. Make `Header & Footer` stays in every route; ✔
+5. Create something unique in the `top banner` in Home page; ✔
 
-6. Show a broken link `404 Error` page; ✔
+6. Create `2 Extra` items in Home page; ✔
 
-7. Create something unique in the `top banner` in Home page; ✔
+7. Create navigation with `Min. 7 Route` in header; ✔
 
-8. Show featured `6 Services` in Home page with `name,image,short description,detail button`; ✔
+8. Show a broken link `404 Error` page; ✔
 
-9. Create something `Extra` in Home page; ✔
+9. Show `Services` in websites with `name,image,short description,detail button`; ✔
 
 10. Implement `Login-Logout` in header and page; ✔
 
@@ -48,13 +48,15 @@ Click Here: [Live Site (Netlify)](https://compassionate-shirley-184a94.netlify.a
 
 13. Create `buttons` with active functionality; ✔
 
-14. Show `User Name` after login. ✔
+14. Show `User Name` after login; ✔
+
+15. Implement `My Order` with `Delete`;
 
 ## Bonus:
 
 1. `Responsive`; ✔
 2. `Context API`; ✔
-3. `Dynamic Route`; ✔
+3. `Manage All Orders`; 
 4. `Local Storage` (optional);
 5. `Variation in Design`; ✔
 6. `Organized Codes`; ✔
