@@ -76,7 +76,7 @@ We have a sample task for you.
 
 11. Also, if you want you can use mongoose.
 
-12. If possilbe, replace the default react favicon and give an icon for your website. 
+12. If possible, replace the default react favicon and give an icon for your website. 
 
 
 ### Additional information:

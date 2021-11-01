@@ -62,12 +62,6 @@ function App() {
                   </TitleChange>
                 )} />
 
-                <Route path='/gallery' render={(props) => (
-                  <TitleChange title="Gallery">
-                    <Gallery {...props} />
-                  </TitleChange>
-                )} />
-
                 <Route path='/about' render={(props) => (
                   <TitleChange title="About OakTour">
                     <About {...props} />
@@ -77,8 +71,6 @@ function App() {
                 <Route path='/login'>
                   <Login></Login>
                 </Route>
-
-
 
                 {/* Private Routes */}
 

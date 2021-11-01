@@ -14,9 +14,9 @@ This site is made to ensure your good health `MediCare Because We care`
 
 ## Learn More
 
-Click Here: [Live Site (Firebase)](https://assignment-10-d8235.web.app/)
+Click Here: [Live Site (Firebase)](https://oak-tours.web.app/)
 <br />
-Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
+Click Here: [Live Site (Netlify)](https://compassionate-shirley-184a94.netlify.app/)
 
 # Assignment-9
 
@@ -74,8 +74,10 @@ Click Here: [Live Site (Netlify)](https://friendly-leakey-37ef00.netlify.app/)
 
 1. Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (Firebase Deploy),
 2. {"hosting": {"public": "build","rewrites": [{"source": "** ","destination": "/index.html"}],"ignore": [ "firebase.json","** /.*","** /node_modules/**"]}} (404 reload issue **turn on auto-format),
+3. Firebase > Authentication > Signin Method > Add Domain
 
-### Live Site (Firebase): https://assignment-10-d8235.web.app/
-### Live Site (Netlify): https://friendly-leakey-37ef00.netlify.app/
+### Live Site (Firebase): https://oak-tours.web.app/
+### Live Site (Netlify): https://compassionate-shirley-184a94.netlify.app/
+### Heroku (Server): https://pure-eyrie-69335.herokuapp.com/
 ### GitHub (Client): https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-L2L-OakFrog
 ### GitHub (Server): https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-L2L-OakFrog

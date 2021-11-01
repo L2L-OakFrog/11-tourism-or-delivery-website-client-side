@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Button } from 'react-bootstrap';
-import { useParams } from 'react-router';
 import { NavLink } from 'react-router-dom';
+import { useParams } from 'react-router';
+import Rating from 'react-rating';
 
 const TourDetails = () => {
     const { tourId } = useParams();
@@ -27,15 +28,21 @@ const TourDetails = () => {
             <Container className='flexing'>
                 <div>
                     <h1>Name: {ids?.name}</h1>
-                    <h5>Details: {ids?.details}</h5>
-                    <h6>Ratings: {ids?.rating}</h6>
-                    <h6>Price: {ids?.cost}$</h6>
                     <br />
-                    <Button variant="outline-primary"><NavLink style={styles} to={`/myorders`}>Buy</NavLink></Button>{' '}
+                    <p>{ids?.details}</p>
+                    <h5>Ratings: <Rating
+                        initialRating={ids?.rating}
+                        emptySymbol='far fa-star'
+                        fullSymbol="fas fa-star"
+                        readonly></Rating></h5>
+                    <br />
+                    <h5>Price: {ids?.cost}$</h5>
+                    <br />
+                    <Button variant="outline-primary"><NavLink style={styles} to={`/myorders`}>Book Now</NavLink></Button>{' '}
                     <br />
                 </div>
                 <div className="container">
-                    <img src={ids.img} width="50%" alt="" />
+                    <img src={ids.img} width="70%" alt="" />
                 </div>
             </Container>
         </div>

@@ -21,7 +21,7 @@ const AddRestaurants = () => {
             <h1>Add Restaurant information's here</h1>
             <hr />
             <form onSubmit={handleSubmit(onSubmitRestaurants)}>
-                <input placeholder="Name" {...register("name", { required: true, maxLength: 20 })} />
+                <input placeholder="Name" {...register("name", { required: true })} />
                 <textarea placeholder="Details" {...register("details", { required: true })} />
                 <input placeholder="Cost" type="number" {...register("cost", { required: true })} />
                 <input placeholder="Ratings" type="number" {...register("rating", { min: 1, max: 5 }, { required: true })} />

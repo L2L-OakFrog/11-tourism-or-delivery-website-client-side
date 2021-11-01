@@ -41,7 +41,6 @@ const Header = () => {
                             <NavDropdown.Item as={Link} to="/restaurants">All Restaurants</NavDropdown.Item>
                         </NavDropdown>
 
-                        <Nav.Link as={Link} to="/gallery">Gallery</Nav.Link>
                         <Nav.Link as={Link} to="/about">About Us</Nav.Link>
                     </Nav>
                     <Nav className="justify-content-end">

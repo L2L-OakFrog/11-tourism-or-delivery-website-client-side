@@ -7,15 +7,15 @@
     border-radius: 10px;
     padding: 0 20px;
     margin-bottom: 30px;
-    color: rgb(248, 0, 0);
-    background-image:url("https://image.freepik.com/free-vector/travel-tourism-illustration-with-resort-sightseeing-elements_1284-30189.jpg");
+    color: rgb(255, 252, 252);
+    background-image:url("https://as1.ftcdn.net/v2/jpg/02/73/79/98/500_F_273799881_w5btYHhh5SNkgDjPBSwOBoph4oCZbWWN.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
 .banner:hover
 {
     color: black;
-    background-image:("");
+    background-image:url("");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -27,4 +27,29 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+.card
+{
+    align-items: center;
+}
+.card img
+{
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 180px;
+    width: 50%;
+    
+}
+.card:hover
+{
+    transition: 0.8s;
+    background-color: rgb(185, 250, 250);
+    box-shadow: 4px 4px 7px gray;
+}
+.showing
+{
+    margin-left: 25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }

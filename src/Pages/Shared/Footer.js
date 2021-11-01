@@ -12,9 +12,9 @@ const Footer = () => {
                         <hr />
                         <ul className="list-unstyled">
                             <li><h5><Link to="/about">About Us</Link></h5></li>
-                            <li><h5><Link to="/gallery">Gallery</Link></h5></li>
-                            <li><h5><Link to="/hotels">Hotels</Link></h5></li>
                             <li><h5><Link to="/tours">Tours</Link></h5></li>
+                            <li><h5><Link to="/hotels">Hotels</Link></h5></li>
+                            <li><h5><Link to="/restaurants">Restaurants</Link></h5></li>
                         </ul>
                     </Col>
                     <Col>
