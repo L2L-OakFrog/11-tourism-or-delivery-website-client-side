@@ -10,7 +10,7 @@ const ManageUsers = () => {
             <ul>
                 {
                     users.map(user =>
-                        <li key={user._id}><h4>Name: {user.fullName}, Email: {user.email}</h4></li>)
+                        <li key={user._id}><h4>Name: {user.fullName}, Email: {user.email}<button className='ms-2'>X</button></h4></li>)
                 }
             </ul>
         </div>

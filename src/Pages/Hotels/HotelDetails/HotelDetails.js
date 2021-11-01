@@ -11,7 +11,7 @@ import './HotelDetails.css';
 const HotelDetails = () => {
     const { hotelId } = useParams();
     const { user } = useAuth();
-    const { register, formState: { errors }, reset, handleSubmit } = useForm();
+    const { register, reset, handleSubmit } = useForm();
 
     const [ids, setIds] = useState({});
     useEffect(() => {
@@ -23,7 +23,7 @@ const HotelDetails = () => {
     }, [])
 
     const onSubmitHotels = data => {
-        axios.post('https://pure-eyrie-69335.herokuapp.com/users', data)
+        axios.post('http://pure-eyrie-69335.herokuapp.com/orders', data)
             .then(res => {
                 console.log(res);
                 if (res.data.insertedId) {
@@ -59,8 +59,6 @@ const HotelDetails = () => {
                     <br />
                     <h5>Price: {ids?.cost}$</h5>
                     <br />
-                    {/* <Button variant="outline-primary"><NavLink style={styles} to={`/myorders`}>Book Now</NavLink></Button>{' '} */}
-                    {/* <Button variant="outline-primary" onClick={handleSubmit(onSubmitHotels)}>Book Now</Button>{' '} */}
                     <br />
                 </div>
                 <div className="container">

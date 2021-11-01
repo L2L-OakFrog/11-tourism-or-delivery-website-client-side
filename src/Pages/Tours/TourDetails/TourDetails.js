@@ -19,7 +19,7 @@ const TourDetails = () => {
     }, [])
 
     const onSubmitHotels = data => {
-        axios.post('https://pure-eyrie-69335.herokuapp.com/users', data)
+        axios.post('https://pure-eyrie-69335.herokuapp.com/orders', data)
             .then(res => {
                 console.log(res);
                 if (res.data.insertedId) {
